@@ -1,0 +1,12 @@
+<Bindings>
+	<Binding name="CLICK AddonModsCWMAll:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsWM1CURSOR:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsWM2CURSOR:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsWM3CURSOR:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsWM4CURSOR:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsWM5CURSOR:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsWM6CURSOR:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsWM7CURSOR:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsWM8CURSOR:LeftButton" category="AddonMods" />
+	<Binding name="CLICK AddonModsPIReminder:LeftButton" category="AddonMods" />
+</Bindings>

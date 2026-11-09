@@ -1,0 +1,95 @@
+---@alias Library table<string, table>
+---@alias Color table<string, any>
+
+---@class addonMods
+---@field LSM Library
+---@field media table<string, table<string, string>>
+---@field defaultFont string
+---@field defaultTexture string
+---@field me string
+---@field myGUID string
+---@field myClass string
+---@field unitEventData table<string, any>
+---@field unitFramePool table<string, any>
+---@field PetFrame Frame
+---@field HiddenFrame Frame
+---@field auraSkin table<string, any>
+---@field animationManager table<string, any>
+---@field WAFade table<string, any>
+---@field WAFlash table<string, any>
+---@field WAPulse table<string, any>
+---@field dynamicGroups table<string, any>
+---@field BarFramePool table<string, any>
+---@field IconFramePool table<string, any>
+---@field MouseFrame table<string, any>
+---@field RegisterEventHandler fun(event: string, func: fun())
+---@field UnregisterEventHandler fun(event: string, func: fun())
+---@field RegisterUnitEventHandler fun(event: string, unit:string, func: fun())
+---@field UnregisterUnitEventHandler fun(event: string, unit:string, func: fun())
+---@field KillFrame fun(object: Frame)
+---@field Scale fun(x: number): number
+---@field FontTemplate fun(fs: FontString, font: string?, size: number?, style: string?)
+---@field Point fun(obj: Frame|Texture|FontString, point: string, xOffset: number, yOffset: number)
+---@field Size fun(frame: Frame, width: number, height: number, ...: any)
+---@field WA_GetTexCoord fun(texWidth: number, aspectRatio: number, xOffset: number, yOffset: number): number, number, number, number, number, number, number, number
+---@field WA_UpdateTexCoords fun(icon: Frame|Texture|FontString, w: number, h: number, zoom: number, keepAspectRatio: boolean, scaleX: number, scaleY: number, texXOffset: number, texYOffset: number)
+---@field WA_Utf8Sub fun(input: string, size: number): string
+---@field WA_ClassColorName fun(unit: string, maxlen: number?): string
+---@field FadeIn fun(Region: table<string, any>, duration: number): table<string, any>
+---@field FadeOut fun(Region: table<string, any>, duration: number): table<string, any>
+---@field CreateFlash fun(FontString: FontString, flashFunc: fun(...)?, duration: number?, delta: number?): table<string, any>
+---@field AddFlash fun(instance: table<string, any>)
+---@field RemoveFlash fun(instance: table<string, any>)
+---@field CreatePulse fun(FontString: FontString, duration: number, targetColor: table<string, number>, easeStrength: number): table<string, any>
+---@field AddPulse fun(instance: table<string, any>)
+---@field RemovePulse fun(instance: table<string, any>)
+---@field CreateDynamicGroup fun(name: string, config: table<string, any>): table<string, any>
+---@field GetDynamicGroup fun(name: string): table<string, any>
+---@field GetOrCreateDynamicGroup fun(name: string, config: table<string, any>): table<string, any>
+---@field NewBar fun(config: table<string, any>): table<string, any>
+---@field NewIcon fun(config: table<string, any>): table<string, any>
+
+---@class EventFrame : Frame
+---@field handlers table<string, any>
+
+---@class UnitEventFrame : Frame
+---@field unitEventList table<string, any>
+---@field unitEventCounts table<string, any>
+
+---@class AuraButton : SecureActionButtonTemplate, BackdropTemplate
+---@field name string
+---@field filter string
+---@field auraType string
+---@field enchantIndex number
+---@field instant boolean
+---@field cooldown Cooldown
+---@field RaisedElement Frame
+---@field texture Texture
+---@field count FontString
+---@field highlight Texture
+---@field chargeCooldown Frame?
+---@field ChargeCooldown Frame?
+---@field lossOfControlCooldown Frame?
+---@field borderFrame BackdropTemplate
+---@field expiration number
+---@field duration number
+---@field modRate number
+---@field timeLeft number
+---@field auraInstanceID number
+---@field unit string
+---@field aura table<string, any>
+---@field auraDuration DurationObject
+---@field elapsed number
+---@field SetIcon fun(self: AuraButton, Icon: Texture)
+---@field SetDurationCooldown fun(self: AuraButton, Cooldown: CooldownFrameTemplate)
+---@field SetDurationText fun(self: AuraButton, Duration: FontString, options: table<string, any>)
+---@field SetApplicationCount fun(self: AuraButton, Stacks: FontString, options: table<string, any>)
+---@field SetCancelAuraButtons fun(self: AuraButton, cancelAuraButtons: string)
+
+---@class Cooldown
+---@field Text FontString
+
+---@class TargetedSpellsBarMixin : Frame
+---@field Icon Frame
+---@field IconBorder Frame
+---@field BarBorder Frame

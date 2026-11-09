@@ -1,0 +1,1 @@
+- PI Reminder does not detect group members when restarting client in raid

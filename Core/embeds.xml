@@ -1,0 +1,7 @@
+<Ui xmlns='http://www.blizzard.com/wow/ui/'>
+	<Button name='ElvUIAuraIconTemplate' inherits='SecureActionButtonTemplate, BackdropTemplate' virtual='true'>
+		<Scripts><OnLoad>AddonMods.auraSkin:CreateIcon(self)</OnLoad></Scripts>
+		<Attributes><Attribute name='type' value='cancelaura'/></Attributes>
+	</Button>
+	<Button name='ElvUIAuraTemplate' inherits='ElvUIAuraIconTemplate' virtual='true' framelevel='4' registerForClicks='RightButtonUp, RightButtonDown'></Button>
+</Ui>

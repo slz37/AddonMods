@@ -1,0 +1,115 @@
+## Interface: 120105
+## Title: AddonMods
+## OptionalDeps: Dominos, BasicMinimap, BigWigs, TipTac, Grid2, EllesmereUI, EllesmereUICooldownManager, ExwindTools, EXBoss, RCLootCouncil, NorthernSkyRaidTools
+## SavedVariablesPerCharacter: combatStartTime, currentEncounter
+
+# Core
+Core\embeds.xml
+Core\libs.xml
+Core\SharedMedia.lua
+Core\UsefulElvUIFunctions.lua
+Core\core.lua
+Core\PetAnchor.lua
+
+# WeakAuras Functionality
+WeakAuras Functions\UsefulWAFunctions.lua
+WeakAuras Functions\Animations\WAAnimationManager.lua
+WeakAuras Functions\Animations\WAFade.lua
+WeakAuras Functions\Animations\WAFlash.lua
+WeakAuras Functions\Animations\WAPulse.lua
+WeakAuras Functions\Regions\WADynamicGroup.lua
+WeakAuras Functions\Regions\WAGenericBar.lua
+WeakAuras Functions\Regions\WAGenericIcon.lua
+
+# Skins
+Skins\ActionButtonsSkin.lua
+Skins\AuraTooltips.lua
+Skins\BigWigsSlugFont.lua
+Skins\EUICropHeight.lua
+Skins\EXBossSlugFont.lua
+Skins\PlayerAuras.lua
+#Skins\PrivateAuras.lua
+Skins\StatusBarSkin.lua
+Skins\TiptacSlugFont.lua
+
+# Miscellaneous
+Miscellaneous\AutoPass.lua
+Miscellaneous\AutoSell.lua
+Miscellaneous\Bindings.lua
+Miscellaneous\EUIActiveTextColor.lua
+Miscellaneous\EUIShowFriendlyNameplates.lua
+Miscellaneous\ExBossCountdownFix.lua
+Miscellaneous\NSRTAutoHide.lua
+Miscellaneous\RCAutoRoll.lua
+Miscellaneous\TooltipCompareGear.lua
+
+# Individual WeakAuras
+WeakAuras\AnchorTrinkets.lua
+
+# WeakAura Bars
+WeakAuras\Bars\AlternatePowerBar.lua
+WeakAuras\Bars\AffixTimer.lua
+WeakAuras\Bars\DragonridingUI.lua
+WeakAuras\Bars\FocusCastBar.lua
+WeakAuras\Bars\GCDBar.lua
+WeakAuras\Bars\MirrorBar.lua
+WeakAuras\Bars\PlayerCastBar.lua
+WeakAuras\Bars\TargetCastBar.lua
+
+# WeakAura Icons
+WeakAuras\Icons\General\ConsumableReminders.lua
+WeakAuras\Icons\General\ExternalDefensives.lua
+WeakAuras\Icons\General\MissingRaidBuffs.lua
+WeakAuras\Icons\General\RaidBuffReminders.lua
+
+WeakAuras\Icons\DK\SoulReaper.lua
+
+WeakAuras\Icons\Priest\AngelicFeather.lua
+WeakAuras\Icons\Priest\PWS.lua
+WeakAuras\Icons\Priest\VoidVolley.lua
+
+# WeakAura Misc
+WeakAuras\Miscellaneous\AutoCompanion.lua
+WeakAuras\Miscellaneous\LFGInvited.lua
+WeakAuras\Miscellaneous\LFGRegions.lua
+
+WeakAuras\Miscellaneous\DH\DevMeta.lua
+
+# WeakAura Textures
+WeakAuras\Textures\Cursor.lua
+WeakAuras\Textures\PlayerLocation.lua
+
+# WeakAura Texts
+WeakAuras\Texts\General\BonusRoll.lua
+WeakAuras\Texts\General\BRStatus.lua
+WeakAuras\Texts\General\BRTracker.lua
+WeakAuras\Texts\General\CombatTimer.lua
+WeakAuras\Texts\General\CombatStatus.lua
+WeakAuras\Texts\General\DeadGroupMember.lua
+WeakAuras\Texts\General\Durability.lua
+WeakAuras\Texts\General\FPS.lua
+WeakAuras\Texts\General\Gateway.lua
+WeakAuras\Texts\General\GroupDrops.lua
+WeakAuras\Texts\General\LossofControl.lua
+WeakAuras\Texts\General\MeleeIndicator.lua
+WeakAuras\Texts\General\PetReminder.lua
+WeakAuras\Texts\General\PetIndicator.lua
+WeakAuras\Texts\General\RangeIndicator.lua
+WeakAuras\Texts\General\Stats.lua
+WeakAuras\Texts\General\TalentReminder.lua
+WeakAuras\Texts\General\TargetDummyCPM.lua
+WeakAuras\Texts\General\TargetedBy.lua
+
+WeakAuras\Texts\Druid\Form.lua
+
+WeakAuras\Texts\Priest\Form.lua
+WeakAuras\Texts\Priest\PIReminder.lua
+
+# Unit Frames
+UnitFrames\EUIDispelBorder.lua
+UnitFrames\EUIPetTarget.lua
+UnitFrames\EUIRestedIcons.lua
+UnitFrames\EUIPowerBorder.lua
+UnitFrames\GridMouseoverHighlight.lua
+UnitFrames\GridPartyIcons.lua
+UnitFrames\GridSlugFont.lua
