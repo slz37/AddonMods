@@ -24,18 +24,23 @@ end
 
 bisList['PRIEST'] = {
 	['Venomkeeper\'s Horrific Cowl'] = {['id'] = {271874}, ['track'] = '344', 	 ['equipped'] = false, ['slot'] = 'Head',  	 ['note'] = '', ['isSet'] = false},
-	['Qirbane Reliquary'] 					 = {['id'] = {268265}, ['track'] = '344', 	 ['equipped'] = false, ['slot'] = 'Neck',  	 ['note'] = '', ['isSet'] = false},
 	['Silken Voodoo Drape'] 				 = {['id'] = {268253}, ['track'] = '344', 	 ['equipped'] = false, ['slot'] = 'Back',  	 ['note'] = '', ['isSet'] = false},
 	['Venomwoven Icon'] 						 = {['id'] = {270926}, ['track'] = 'Mythic', ['equipped'] = false, ['slot'] = 'Chest', 	 ['note'] = '', ['isSet'] = false},
 	['Grasps of the Eternal Shadow'] = {['id'] = {268243}, ['track'] = '344', 	 ['equipped'] = false, ['slot'] = 'Hands', 	 ['note'] = '', ['isSet'] = false},
-	['Voidweaver\'s Leggings'] 		   = {['id'] = {281235}, ['track'] = 'Mythic', ['equipped'] = false, ['slot'] = 'Legs',  	 ['note'] = '', ['isSet'] = false},
-	['Cackling Soultreads'] 			   = {['id'] = {268255}, ['track'] = '344', 	 ['equipped'] = false, ['slot'] = 'Feet',  	 ['note'] = '', ['isSet'] = false},
-	['Vile Alchemist\'s Band'] 		   = {['id'] = {268249}, ['track'] = 'Mythic', ['equipped'] = false, ['slot'] = 'Ring',  	 ['note'] = '', ['isSet'] = false},
-	['Band of the Swarmcaller'] 		 = {['id'] = {281029}, ['track'] = 'Mythic', ['equipped'] = false, ['slot'] = 'Ring',    ['note'] = '', ['isSet'] = false},
-	['Twisted Horror\'s Tendril'] 	 = {['id'] = {281215}, ['track'] = 'Mythic', ['equipped'] = false, ['slot'] = 'Trinket', ['note'] = '', ['isSet'] = false},
 	['Hex Lord\'s Dooming Idol'] 	   = {['id'] = {270169}, ['track'] = '344', 	 ['equipped'] = false, ['slot'] = 'Trinket', ['note'] = 'bis ulatek', ['isSet'] = false},
+	['Jan\'thrazet, the Soul Fang']  = {['id'] = {271092}, ['track'] = '344', 	 ['equipped'] = false, ['slot'] = 'MH',  	   ['note'] = '', ['isSet'] = false},
+	['Spine of the Hissing Abyss']   = {['id'] = {268197}, ['track'] = '344', 	 ['equipped'] = false, ['slot'] = 'OH',  	   ['note'] = '', ['isSet'] = false},
 }
-upgradeList['PRIEST'] = {
+bisList['DEMONHUNTER'] = {
+	['Gaze of the Coiled Watcher']	= {['id'] = {271537}, ['track'] = '344', 	 	['equipped'] = false, ['slot'] = 'Head',  	  ['note'] = '', ['isSet'] = false},
+	['Aqirbane Reliquary']					= {['id'] = {268265}, ['track'] = '344', 	 	['equipped'] = false, ['slot'] = 'Neck',  	  ['note'] = '', ['isSet'] = false},
+	['Frothing Venom Spaulders']		= {['id'] = {271535}, ['track'] = '344', 	 	['equipped'] = false, ['slot'] = 'Shoulders', ['note'] = '', ['isSet'] = false},
+	['Silken Voodoo Drape']					= {['id'] = {268253}, ['track'] = '344', 	 	['equipped'] = false, ['slot'] = 'Back',  	  ['note'] = '', ['isSet'] = false},
+	['Venomcured Idol']							= {['id'] = {271538}, ['track'] = 'Mythic', ['equipped'] = false, ['slot'] = 'Hands', 	  ['note'] = '', ['isSet'] = false},
+	['Sash of the Forlorn Vessel']	= {['id'] = {268256}, ['track'] = '344', 		['equipped'] = false, ['slot'] = 'Belt',  	  ['note'] = '', ['isSet'] = false},
+	['Coiled Hex Legguards']				= {['id'] = {271536}, ['track'] = '344', 		['equipped'] = false, ['slot'] = 'Legs',  	  ['note'] = '', ['isSet'] = false},
+	['Jan\'thrazet, the Soul Fang'] = {['id'] = {271092}, ['track'] = '344', 		['equipped'] = false, ['slot'] = 'MH',  	    ['note'] = '', ['isSet'] = false},
+	['Baleful Hexblade'] 						= {['id'] = {268211}, ['track'] = '344', 		['equipped'] = false, ['slot'] = 'OH',  	    ['note'] = '', ['isSet'] = false},
 }
 
 local TRACKS	   = {Adventurer = 1, Veteran = 2, Champion = 3, Hero = 4, Mythic = 5, ['344'] = 6}

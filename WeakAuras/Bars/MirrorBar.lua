@@ -23,7 +23,7 @@ local MirrorTimerGroup = addonMods.GetOrCreateDynamicGroup('MirrorTimers', {
 	relativeTo    = UIParent,
 	relativePoint = 'CENTER',
 	x             = 0,
-	y             = 200,
+	y             = 234,
 	direction     = 'UP',
 	spacing       = 4,
 })
